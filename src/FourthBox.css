@@ -1,16 +1,4 @@
-.home__row1{
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
-
-.home__row2{
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
-
-.home__row3{
+.home__row{
     position: relative;
     display: flex;
     justify-content: center;
@@ -86,27 +74,29 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 110%);
+    transform: translate(-50%, 100%);
     text-align: center;
     color: white;
     min-width: 400px;
 }
 
 .col1__overlay > h2{
-    font-size: 38px;
+    font-size: 40px;
     font-weight: 600;
     background: rgb(202,219,253);
     background: linear-gradient(180deg, rgba(202,219,253,1) 0%, rgba(125,161,254,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    letter-spacing: -1px;
 }
 
 .col1__overlay > h3{
-    font-weight: 400px;
+    font-size: 21px;
+    font-weight: 500;
 }
 
 span{
-    position:absolute; 
+    position: absolute; 
     width:100%;
     height:100%;
     top:0;
@@ -122,6 +112,7 @@ span{
 
 .home__fourthLinks{
     position: relative;
+    text-align: center;
     z-index: 2;
 }
 
@@ -145,4 +136,66 @@ span{
 
 .home__fourthLinks a:visited{
     color: #6d89d3;
+}
+
+sup{
+    font-size: 11px;
+}
+
+.col2__overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -180%);
+    text-align: center;
+    color: white;
+    min-width: 400px;
+}
+
+.col2__overlay > h3{
+    font-size: 21px;
+    font-weight: 400;
+    color: black;
+    padding-top: 10px;
+    letter-spacing: -0.5px;
+}
+
+.home__fourthLinks__col2{
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    font-size: 18px;
+}
+
+.home__fourthLinks__col2 a{
+    color: #6d89d3;
+    font-weight: 500;
+    text-decoration: inherit;
+}
+
+.home__fourthLinks__col2 a:visited{
+    color: #6d89d3;
+}
+
+.home__fourthLinks__col2 a:hover{
+    text-decoration: underline;
+}
+
+.arrow a:hover{
+    text-decoration: none;
+}
+
+.second__arrow a:hover{
+    text-decoration: none;
+}
+
+.col3__overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -250%);
+    text-align: center;
+    color: black;
+    min-width: 400px;
 }
