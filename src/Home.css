@@ -1,0 +1,28 @@
+.home__message{
+    background-color: #f5f5f7;
+    padding: 12px;
+}
+
+.home{
+    background-color: #fbfbfd;
+}
+
+.home__message > p{
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+    color: #313133;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+.home__message a{
+    text-decoration: inherit;
+    color: #3e89d7;
+    font-weight: 500 !important;
+    letter-spacing: -0.25px;
+}
+
+.home__message a:hover{
+    text-decoration: underline;
+}

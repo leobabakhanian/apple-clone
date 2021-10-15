@@ -1,0 +1,71 @@
+
+.header{
+    height: 4.85vh;
+    background-color: #333333;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 22%;
+    padding-right: 22%;
+    align-items: center;
+    font-size: 14px;
+    margin-top: -1px;
+}
+
+.header a{
+    color: #d7d7d7;
+    text-decoration: inherit;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.header a:hover{
+    color: #ffffff;
+    text-shadow:0px 0px 0.45px #ffffff;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.header__mainLogo {
+    color: #d7d7d7;
+}
+
+.header__mainLogo a{
+    color: #d7d7d7;
+    text-decoration: inherit;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.header__mainLogo a:hover{
+    color: #ffffff;
+    text-shadow:0px 0px 0.35px #ffffff;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.header__logo{
+    color: #d7d7d7;
+    cursor: pointer;
+    align-items: center;
+}
+
+.header__bag {
+    object-fit: contain;
+    height: 24px;
+    cursor: pointer;
+}
+
+.header__search {
+    object-fit: contain;
+    height: 22px;
+    cursor: pointer;
+}
