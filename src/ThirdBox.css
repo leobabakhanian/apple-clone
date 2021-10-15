@@ -1,7 +1,9 @@
-.home__first{
+.home__third{
     text-align: center;
     position: relative;
+    margin-top: 8px;
     background-color: #fbfbfd;
+    max-width: 3100px;
 }
 
 span{
@@ -13,53 +15,43 @@ span{
     z-index: 1;
 }
 
-.home__first > h2{
-    padding-top: 45px;
-    font-size: 57px;
-    font-weight: 600;
-    letter-spacing: -1px;
-    transform: scaleY(0.95);
-    color: #1d1d1f;
+.home__third > img{
+    padding-top: 47px;
+    padding-bottom: 20px;
 }
 
-.home__first > h3{
-    margin-top: -2px;
+.home__third > h3{
+    padding-top: 12px;
     font-size: 27px;
     font-weight: 400;
     color: #1d1d1f;
 }
 
-.home__first > img{
-    margin-top: 34px;
+.home__third > h5{
+    color: #86868b;
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 12px;
 }
 
-.home__firstLinks{
+.home__thirdLinks{
     position: relative;
     text-align: center;
     z-index: 2;
 }
 
-.home__firstLinks a{
+.home__thirdLinks a{
     text-decoration: inherit;
     color: #3e89d7;
     font-weight: 500;
 }
 
-.home__firstLinks a:visited{
-    color: #3e89d7;
-}
-
-.arrow{
-    padding-right: 30px;
-    display: inline;
-}
-
-.second__arrow{
-    display: inline;
-}
-
-.home__firstLinks a:hover{
+.home__thirdLinks a:hover{
     text-decoration: underline;
+}
+
+.home__thirdLinks a:visited{
+    color: #3e89d7;
 }
 
 .arrow a:hover{
@@ -70,10 +62,10 @@ span{
     text-decoration: none;
 }
 
-.home__firstLinks > h4{
+.home__thirdLinks > h4{
     margin-top: 15px;
     width: 100%;
-    font-size: 21px;
+    font-size: 20px;
     letter-spacing: -0.25px;
     height: 30px;
 }

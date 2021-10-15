@@ -2,6 +2,9 @@ import React from 'react'
 import Header from './Header';
 import './Home.css';
 import FirstBox from './FirstBox';
+import SecondBox from './SecondBox';
+import ThirdBox from './ThirdBox';
+import FourthBox from './FourthBox';
 import { Link } from "react-router-dom";
 
 function Home() {
@@ -14,15 +17,9 @@ function Home() {
             </div>
 
             <FirstBox />
-
-            <div className="home__second">
-
-            </div>
-
-            <div className="home__third">
-
-
-            </div>
+            <SecondBox />
+            <ThirdBox />
+            <FourthBox />
         </div>
     )
 }
