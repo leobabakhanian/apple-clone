@@ -8,7 +8,7 @@ import ShoppingBag from './images/icons/shopping_bag.png';
 function Header() {
     return (
         <div className="header">
-            <Link className="header__mainLogo" to ="/"><AppleIcon style={{maxWidth: '22px', maxHeight: '22px', minWidth: '22px', minHeight: '22px'}} /></Link>
+            <Link to ="/"><AppleIcon style={{maxWidth: '22px', maxHeight: '22px', minWidth: '22px', minHeight: '22px'}} /></Link>
             <Link to ="/us/shop/goto/store">Store</Link>
             <Link to ="/mac">Mac</Link>
             <Link to ="/ipad">iPad</Link>

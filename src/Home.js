@@ -12,6 +12,7 @@ function Home() {
     return (
         <div className="home">
             <Header />
+            
             <div className="home__message">
                 <p>
                     We look forward to welcoming you to our stores. Whether 
