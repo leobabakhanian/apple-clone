@@ -107,9 +107,47 @@ h4 {
 .footer__pages{
     display: flex;
     justify-content: space-between;
-    padding-right: 13%;
 }
 
 .pages__col > h4{
     color: #444447;
+}
+
+.pages__col > h5{
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #747476;
+    letter-spacing: 0.1px;
+    cursor: pointer;
+}
+
+.footer__contact{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer__contact > p{
+    font-size: 12px;
+    color: #9e9ea3;
+    padding-top: 10px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+}
+
+.footer__contact > p > a{
+    color: #478fd9;
+    text-decoration: inherit;
+}
+
+.footer__contact > p > a:hover{
+    text-decoration: underline;
+}
+
+.footer__contact > p > a:visited{
+    color: #478fd9;
+}
+
+.second{
+    padding-top: 30px;
 }

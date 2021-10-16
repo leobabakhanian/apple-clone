@@ -54,16 +54,78 @@ function Footer() {
                     </div>
                     <div className="pages__col">
                         <h4>Services</h4>
+                        <h5>Apple Music</h5>
+                        <h5>Apple TV+</h5>
+                        <h5>Apple Fitness+</h5>
+                        <h5>Apple News+</h5>
+                        <h5>Apple Arcade</h5>
+                        <h5>iCloud</h5>
+                        <h5>Apple One</h5>
+                        <h5>Apple Card</h5>
+                        <h5>Apple Books</h5>
+                        <h5>Apple Podcasts</h5>
+                        <h5>App Store</h5>
+                        
+                        <h4 class="second">Account</h4>
+                        <h5>Manage Your Apple ID</h5>
+                        <h5>Apple Store Account</h5>
+                        <h5>iCloud.com</h5>
                     </div>
                     <div className="pages__col">
                         <h4>Apple Store</h4>
+                        <h5>Find a Store</h5>
+                        <h5>Shop Online</h5>
+                        <h5>Genius Bar</h5>
+                        <h5>Today at Apple</h5>
+                        <h5>Apple Camp</h5>
+                        <h5>Apple Store App</h5>
+                        <h5>Refurbished and Clearance</h5>
+                        <h5>Financing</h5>
+                        <h5>Apple Trade In</h5>
+                        <h5>Order Status</h5>
+                        <h5>Order Status</h5>
                     </div>
                     <div className="pages__col">
                         <h4>For Business</h4>
+                        <h5>Apple and Business</h5>
+                        <h5>Shop for Business</h5>
+
+                        <h4 class="second">For Education</h4>
+                        <h5>Apple and Education</h5>
+                        <h5>Shop for K-12</h5>
+                        <h5>Shop for College</h5>
+
+                        <h4 class="second">For Healthcare</h4>
+                        <h5>Apple in Healthcare</h5>
+                        <h5>Health on Apple Watch</h5>
+                        <h5>Health Records on iPhone</h5>
+
+                        <h4 class="second">For Government</h4>
+                        <h5>Shop for Government</h5>
+                        <h5>Shop for Veterans and Military</h5>
                     </div>
                     <div className="pages__col">
                         <h4>Apple Values</h4>
+                        <h5>Accessibility</h5>
+                        <h5>Education</h5>
+                        <h5>Environment</h5>
+                        <h5>Inclusion and Diversity</h5>
+                        <h5>Privacy</h5>
+                        <h5>Racial Equity and Justice</h5>
+                        <h5>Supplier Responsibility</h5>
+
+                        <h4 class="second">About Apple</h4>
+                        <h5>Newsroom</h5>
+                        <h5>Apple Leadership</h5>
+                        <h5>Career Opportunities</h5>
+                        <h5>Investors</h5>
+                        <h5>Ethics & Compliance</h5>
+                        <h5>Events</h5>
+                        <h5>Contact Apple</h5>
                     </div>
+                </div>
+                <div className="footer__contact">
+                        <p>More ways to shop: <Link to="/retail">Find an Apple Store</Link> or <Link to="/locate">other retailer</Link> near you. Or call 1-800-MY-APPLE.</p>
                 </div>
                 <hr />
                 <div className="footer__info">
