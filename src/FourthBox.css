@@ -5,32 +5,32 @@
 }
 
 .home__col1{
-    padding: 12px 0px 12px 12px;
+    margin: 12px 0px 12px 12px;
     position: relative;
 }
 
 .home__col2{
-    padding: 12px 12px 12px 12px;
+    margin: 12px 12px 12px 12px;
     position: relative;
 }
 
 .home__col3{
-    padding: 0px 0px 12px 12px;
+    margin: 0px 0px 12px 12px;
     position: relative;
 }
 
 .home__col4{
-    padding: 0px 12px 12px 12px;
+    margin: 0px 12px 12px 12px;
     position: relative;
 }
 
 .home__col5{
-    padding: 0px 0px 12px 12px;
+    margin: 0px 0px 12px 12px;
     position: relative;
 }
 
 .home__col6{
-    padding: 0px 12px 12px 12px;
+    margin: 0px 12px 12px 12px;
     position: relative;
 }
 
@@ -104,19 +104,35 @@ span{
     z-index: 1;
 }
 
-.home__fourthLinks > h4{
+.home__fourthLinks__col1 > h4{
     text-align: center;
     font-size: 18px;
     padding-top: 10px;
 }
 
-.home__fourthLinks{
+.home__fourthLinks__col2 > h4{
+    font-size: 18px;
+}
+
+.home__fourthLinks__col3 > h4{
+    font-size: 18px;
+}
+
+.home__fourthLinks__col4 > h4{
+    font-size: 18px;
+}
+
+.home__fourthLinks__col5 > h4{
+    font-size: 18px;
+}
+
+.home__fourthLinks__col1{
     position: relative;
     text-align: center;
     z-index: 2;
 }
 
-.home__fourthLinks a{
+.home__fourthLinks__col1 a{
     color: #6d89d3;
     font-weight: 500;
     text-decoration: inherit;
@@ -126,7 +142,7 @@ span{
     display: inline;
 }
 
-.home__fourthLinks a:hover{
+.home__fourthLinks__col1 a:hover{
     text-decoration: underline;
 }
 
@@ -134,7 +150,7 @@ span{
     text-decoration: none;
 }
 
-.home__fourthLinks a:visited{
+.home__fourthLinks__col1 a:visited{
     color: #6d89d3;
 }
 
@@ -156,7 +172,7 @@ sup{
     font-size: 21px;
     font-weight: 400;
     color: black;
-    padding-top: 10px;
+    padding-top: 5px;
     letter-spacing: -0.5px;
 }
 
@@ -183,11 +199,11 @@ sup{
 }
 
 .arrow a:hover{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .second__arrow a:hover{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .col3__overlay{
@@ -198,4 +214,162 @@ sup{
     text-align: center;
     color: black;
     min-width: 400px;
+}
+
+.col3__overlay > h3{
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.home__fourthLinks__col3{
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    font-size: 18px;
+}
+
+.home__fourthLinks__col3 a{
+    color: #6d89d3;
+    font-weight: 500;
+    text-decoration: inherit;
+}
+
+.home__fourthLinks__col3 a:visited{
+    color: #6d89d3;
+}
+
+.home__fourthLinks__col3 a:hover{
+    text-decoration: underline;
+}
+
+.col4__overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -225%);
+    text-align: center;
+    color: black;
+    min-width: 400px;
+}
+
+.col4__overlay > h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.col4__overlay > h3{
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.home__fourthLinks__col4{
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    font-size: 18px;
+}
+
+.home__fourthLinks__col4 a{
+    color: #6d89d3;
+    font-weight: 500;
+    text-decoration: inherit;
+}
+
+.home__fourthLinks__col4 a:visited{
+    color: #6d89d3;
+}
+
+.home__fourthLinks__col4 a:hover{
+    text-decoration: underline;
+}
+
+.col6__overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    min-width: 400px;
+    align-items: center;
+}
+
+.col6__overlay > h3{
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.col6__logo{
+    padding-top: 270px;
+}
+
+.home__fourthLinks__col6{
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    font-size: 18px;
+}
+
+.home__fourthLinks__col6 a{
+    color: #2997ff;
+    font-weight: 400;
+    text-decoration: inherit;
+}
+
+.col6__link{
+    display: inline;
+    font-size: 18px;
+}
+
+.icon__arrow{
+    display: inline;
+    color: #2997ff;
+}
+
+.icon__arrow > .MuiSvgIcon-root {
+    transform: rotate(-90deg);
+}
+
+.col5__overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -180%);
+    text-align: center;
+    color: white;
+    min-width: 400px;
+}
+
+.col5__overlay > h3{
+    font-size: 21px;
+    font-weight: 400;
+    color: black;
+    padding-top: 5px;
+    letter-spacing: -0.5px;
+}
+
+.home__fourthLinks__col5{
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    font-size: 18px;
+}
+
+.home__fourthLinks__col5 a{
+    color: #6d89d3;
+    font-weight: 500;
+    text-decoration: inherit;
+}
+
+.home__fourthLinks__col5 a:visited{
+    color: #6d89d3;
+}
+
+.home__fourthLinks__col5 a:hover{
+    text-decoration: underline;
 }

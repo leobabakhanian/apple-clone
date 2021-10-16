@@ -1,7 +1,7 @@
 .home__third{
     text-align: center;
     position: relative;
-    margin-top: 8px;
+    margin-bottom: 10px;
     background-color: #fbfbfd;
     max-width: 3100px;
 }
@@ -16,22 +16,21 @@ span{
 }
 
 .home__third > img{
-    padding-top: 47px;
-    padding-bottom: 20px;
+    padding-bottom: 13px;
+}
+
+.home__third > h2{
+    padding-top: 43px;
+    padding-bottom: 5px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #cc743c;
 }
 
 .home__third > h3{
-    padding-top: 12px;
     font-size: 27px;
     font-weight: 400;
     color: #1d1d1f;
-}
-
-.home__third > h5{
-    color: #86868b;
-    font-weight: 500;
-    font-size: 16px;
-    padding-top: 12px;
 }
 
 .home__thirdLinks{
@@ -63,9 +62,15 @@ span{
 }
 
 .home__thirdLinks > h4{
-    margin-top: 15px;
+    padding-top: 13px;
     width: 100%;
     font-size: 20px;
     letter-spacing: -0.25px;
     height: 30px;
+}
+
+.third__image > img{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    height: 425px;
 }
