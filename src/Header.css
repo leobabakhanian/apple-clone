@@ -1,5 +1,5 @@
 .header{
-    height: 4.85vh;
+    height: 44px;
     background-color: #333333;
     text-align: center;
     display: flex;
@@ -21,15 +21,6 @@
     -ms-user-select: none;
     user-select: none;
 }
-
-@media only screen and (max-width: 1050px) {
-
-    .header {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-  
-  }
 
 .header a{
     color: #d7d7d7;
