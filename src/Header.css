@@ -9,7 +9,7 @@
     padding-right: 15%;
     align-items: center;
     font-size: 14px;
-    /*position: sticky;
+    position: sticky;
     top: 0;
     z-index: 3;
     opacity: 95%;
@@ -19,7 +19,7 @@
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none;*/
+    user-select: none;
 }
 
 .header a{
